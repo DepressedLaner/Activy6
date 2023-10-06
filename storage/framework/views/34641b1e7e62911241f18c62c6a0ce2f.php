@@ -7,10 +7,6 @@
   <title>Hello World!</title> 
 </head> 
 <body> 
-  <h1>Product view</h1>
-  
-  <a href="/create"><button type ="button">Add Product</button></a>
-
-
+  <h1>Creation Product</h1> 
 </body> 
-</html>
+</html><?php /**PATH C:\Users\Tecmilenio\Documents\Template\mi-proyecto-laravel\resources\views/products/productCreation.blade.php ENDPATH**/ ?>

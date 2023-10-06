@@ -13,4 +13,4 @@
 
 
 </body> 
-</html>
+</html><?php /**PATH C:\Users\Tecmilenio\Documents\Template\mi-proyecto-laravel\resources\views/products/productView.blade.php ENDPATH**/ ?>

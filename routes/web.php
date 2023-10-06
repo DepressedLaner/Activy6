@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Helloworld;
+use App\Http\Controllers\ProductController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +20,9 @@ Route::get('/', function () {
 });
 
 Route::get('/helloworld', [HelloWorld::class, 'sayHello']);
+
+Route::get('/index', [ProductController::class, 'indexProduct']);
+
+Route::get('/Edit', [ProductController::class, 'editProduct']);
+
+Route::get('/create', [ProductController::class, 'createProduct']);
